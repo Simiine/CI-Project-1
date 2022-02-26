@@ -9,4 +9,11 @@
 /* headings and logo*/
 h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
+#logo {
+    float: left;
+    font-size: 3rem;
+    margin-left: 2rem;
 }
