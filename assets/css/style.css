@@ -6,6 +6,11 @@
     border: none;
 }
 
+body {
+    font-family: 'Mulish', sans-serif;
+    color: black;
+}
+
 /* headings and logo*/
 h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
