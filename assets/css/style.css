@@ -76,8 +76,12 @@ h1, h2 {
 }
 
 #right-welcome {
-    background-color: blue;
     padding-top: 3rem;
     float: right;
-    width: 35%;
+    width: 30%;
+    padding-right: 20rem;
+    line-height: 1.5rem;
 }
+
+
+
