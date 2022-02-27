@@ -71,14 +71,21 @@ h1, h2 {
 #left-welcome {
    padding-top: 3rem;
    float: left;
-   width: 50%;
+   width: 35%;
+}
+
+img {
+    height: 20rem;
+    padding-left: 18rem;
 }
 
 #right-welcome {
-    padding-top: 3rem;
+    padding-top: 8rem;
     float: right;
     width: 30%;
-    padding-right: 20rem;
+    padding-right: 30rem;
     line-height: 1.5rem;
+    font-size: large;
 }
+
 
