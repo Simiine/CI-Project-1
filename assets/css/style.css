@@ -50,3 +50,12 @@ h1, h2 {
     background-color: black;
     color: white;
 }
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/ethnic-woman-applying-cream-on-face.jpg') center center / cover no-repeat fixed;
+    overflow: hidden;
+}
