@@ -65,7 +65,6 @@ h1, h2 {
 /* welcome */
 
 #welcome {
-    background-color: green;
     height: 30rem;
 }
 
@@ -95,4 +94,30 @@ h1, h2 {
 
 .homepage-text > h2 {
     font-size: 2.5rem;
+}
+
+/* diy skincare */
+
+diy skincare
+
+#diy-skincare {
+    height: 30rem;
+}
+
+#diy-skincare-text {
+    width: 50%;
+    float: left;
+    padding-left: 25rem;
+}
+
+#diy-skincare-image {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+#diy-skincare-image img {
+    height: 20rem;
+    position: relative;
+    left: 10rem;
 }
