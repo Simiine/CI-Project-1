@@ -64,5 +64,35 @@ h1, h2 {
 
 /* welcome */
 
+#welcome {
+    background-color: green;
+    height: 30rem;
+}
 
+#welcome-image {
+    padding-top: 80px;
+    width: 50%;
+    float: left;
+}
 
+#welcome-image > img {
+    height: 20rem;
+    padding-left: 25rem;
+}
+
+#welcome-text {
+    padding-top: 9rem;
+    width: 50%;
+    float: right;
+}
+
+.homepage-text {
+    width: 60%;
+    line-height: 1.5rem;
+    clear: both;
+    font-size: 1.2rem;
+}
+
+.homepage-text > h2 {
+    font-size: 2.5rem;
+}
