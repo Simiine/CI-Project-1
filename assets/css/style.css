@@ -31,7 +31,7 @@ h1, h2 {
 }
 
 #menu, #logo {
-    line-height: 80px;
+    line-height: 5rem;
 }
 
 #menu li {
@@ -43,7 +43,7 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
-    padding: 10px;
+    padding: 1rem;
     
 }
 
@@ -56,7 +56,7 @@ h1, h2 {
 /* hero image */
 
 #hero-image {
-    height: 500px;
+    height: 34rem;
     width: 100%;
     background: url('../images/woman-applying-cream.jpg') center center / cover no-repeat fixed;
     overflow: hidden;
@@ -86,7 +86,6 @@ h1, h2 {
 
 #welcome-image {
     width: 50%;
-    /* height: 600px; */
     height: 35rem;
     background: url('../images/woman-with-eyes-closed.jpg') no-repeat center / cover;
     border-radius: 1rem;
@@ -112,7 +111,7 @@ h1, h2 {
 }
 
 .content p {
-    margin: 20px 0;
+    margin: 1rem 0;
     line-height: 1.5rem;
 }
 
