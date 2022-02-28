@@ -64,60 +64,54 @@ h1, h2 {
 
 /* welcome */
 
-#welcome {
-    height: 30rem;
+.home-page-section {
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #welcome-image {
-    padding-top: 80px;
     width: 50%;
-    float: left;
+    /* height: 600px; */
+    height: 35rem;
+    background: url('../images/woman-with-eyes-closed.jpg') no-repeat center / cover;
+    border-radius: 1rem;
 }
 
-#welcome-image > img {
+/* img {
+    height: 25rem;
+    border-radius: 8px; 
+} */
+
+#welcome-content {
+    width: 50%;
     height: 20rem;
-    padding-left: 25rem;
+    background-color: #6D5141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.9rem;
+    border-radius: 1rem;
+    color: white;
+    margin-left: -90px;
 }
 
-#welcome-text {
-    padding-top: 9rem;
-    width: 50%;
-    float: right;
-}
-
-.homepage-text {
-    width: 60%;
-    line-height: 1.5rem;
-    clear: both;
-    font-size: 1.2rem;
-}
-
-.homepage-text > h2 {
+.content h2 {
     font-size: 2.5rem;
+    font-weight: lighter;
+    color: white;
 }
 
-/* diy skincare */
-
-diy skincare
-
-#diy-skincare {
-    height: 30rem;
-}
-
-#diy-skincare-text {
-    width: 50%;
-    float: left;
-    padding-left: 25rem;
-}
-
-#diy-skincare-image {
-    width: 50%;
-    float: right;
-    position: relative;
-}
-
-#diy-skincare-image img {
-    height: 20rem;
-    position: relative;
-    left: 10rem;
+.content p {
+    margin: 20px 0;
+    line-height: 1.5rem;
 }
