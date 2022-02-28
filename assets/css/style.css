@@ -79,6 +79,11 @@ h1, h2 {
     justify-content: center;
 }
 
+/* img {
+    height: 25rem;
+    border-radius: 8px; 
+} */
+
 #welcome-image {
     width: 50%;
     /* height: 600px; */
@@ -86,11 +91,6 @@ h1, h2 {
     background: url('../images/woman-with-eyes-closed.jpg') no-repeat center / cover;
     border-radius: 1rem;
 }
-
-/* img {
-    height: 25rem;
-    border-radius: 8px; 
-} */
 
 #welcome-content {
     width: 50%;
@@ -114,4 +114,26 @@ h1, h2 {
 .content p {
     margin: 20px 0;
     line-height: 1.5rem;
+}
+
+/* diy skincare */
+
+#diy-skincare-content {
+    width: 50%;
+    height: 20rem;
+    background-color: #6D5141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.9rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+#diy-skincare-image {
+    width: 50%;
+    height: 35rem;
+    background: url('../images/brown-glass-products.jpg') no-repeat center / cover;
+    border-radius: 1rem;
+    
 }
