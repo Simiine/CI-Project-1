@@ -11,10 +11,19 @@ body {
     color: black;
 }
 
-/* headings and logo*/
+/* headings */
 h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
     color: black;
+}
+
+/* logo and navigation bar */
+
+#header-container {
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    position: fixed;
 }
 
 #logo {
@@ -23,9 +32,9 @@ h1, h2 {
     margin-left: 2rem;
 }
 
-/* navigation */
-
-#menu {
+nav {
+    float: right;
+    margin-right: 2rem;
     font-size: 1rem;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -35,16 +44,14 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
-    margin-right: 2rem;
+    display: inline-block;
 }
 
 #menu a {
     text-decoration: none;
+    padding: 0.5rem;
     color: inherit;
-    padding: 10px;
-    
 }
 
 #menu a:hover {
@@ -52,7 +59,7 @@ h1, h2 {
     color: white;
     border-radius: 5px;
 }
-
+    
 /* hero image */
 
 #hero-image {
