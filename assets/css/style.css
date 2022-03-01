@@ -143,3 +143,41 @@ nav {
     border-radius: 1rem;
     
 }
+
+/* resources section */
+
+/* #products {
+    background-image: url('../images/ceramic-bowl.jpg');
+} */
+
+#resources {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+}
+
+#resources div {
+    width: 25%;
+    margin: 1rem;
+    text-align: center;
+    padding: 10rem 0;
+    border-radius: 1rem;
+}
+
+#products {
+    background: url('../images/brown-glass-cosmetics.jpg') center / cover no-repeat;
+}
+
+#ingredients {
+    background: url('../images/ceramic-bowl.jpg')center / cover no-repeat;
+}
+
+#practices {
+    background: url('../images/woman-with-gloves.jpg') center / cover no-repeat;
+}
+
+#resources h2 {
+    color: white;
+    font-size: 4rem;
+}
