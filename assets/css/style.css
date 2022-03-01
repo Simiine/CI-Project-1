@@ -198,14 +198,25 @@ nav {
     width: 10rem;
 }
 
-/* .learn-more a:hover {
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-} */
-
 #resources a:hover {
     background-color: black;
     color: white;
     border-radius: 5px;
+}
+
+/* footer */
+
+.socials {
+    text-align: center;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
 }
