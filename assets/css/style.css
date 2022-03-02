@@ -211,6 +211,32 @@ nav {
     border-radius: 5px;
 }
 
+/* product type page */ 
+
+.product-title {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 3rem 0 1rem;
+}
+
+
+.product-intro {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 30rem;
+    list-style-position: inside;
+}
+
+.product-intro p {
+    margin-bottom: 6px;
+}
+
+.product-intro ul li {
+    text-align: left;
+    padding-left: 21rem;
+}
+
 /* signup form */
 /* .form-section {
     background-color: #6D5141;
