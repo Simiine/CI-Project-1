@@ -211,7 +211,7 @@ nav {
     border-radius: 5px;
 }
 
-/* product type page */ 
+/* product type page introduction*/ 
 
 .product-title {
     font-size: 3rem;
@@ -224,7 +224,7 @@ nav {
 .product-intro {
     font-size: 1.2rem;
     text-align: center;
-    padding: 0 30rem;
+    padding: 0 35rem;
     list-style-position: inside;
 }
 
@@ -236,6 +236,86 @@ nav {
     text-align: left;
     padding-left: 21rem;
 }
+
+/* product type page introduction*/ 
+
+.main-content-section {
+    /* height: 50rem; */
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-container {
+    /* width: 60%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+}
+
+/* .main-content-image {
+    width: 50%;
+    height: 35rem;
+
+    width: 30%;
+    height: 25rem;
+    background: url('../images/woman-with-eyes-closed.jpg') no-repeat center / cover;
+    border-radius: 1rem;
+} */
+
+#oil-image {
+    width: 30%;
+    height: 25rem;
+    background: url('../images/oil-texture-shot.jpg') no-repeat center / cover;
+    border-radius: 1rem;
+}
+
+#water-image {
+    width: 30%;
+    height: 25rem;
+    background: url('../images/gel-texture-shot.jpg') no-repeat center / cover;
+    border-radius: 1rem;
+}
+
+#emulsion-image {
+    width: 30%;
+    height: 25rem;
+    background: url('../images/cream-texture-shot.jpg') no-repeat center / cover;
+    border-radius: 1rem;
+}
+.main-content-text {
+    width: 50%;
+    height: 20rem;
+    /* background-color: #6D5141; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.9rem;
+    padding-left: 5rem;
+    border-radius: 1rem;
+    color: black;
+}
+
+.text h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: black;
+}
+
+.text, p, ul {
+    margin: 1rem 0;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.text ul{
+    list-style-position: inside;
+    padding-left: 1.5rem;
+}
+
 
 /* signup form */
 /* .form-section {
