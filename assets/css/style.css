@@ -326,15 +326,24 @@ nav {
 /* best practice page */
 
 #essential-oil-image {
-    
+    width: 30%;
+    height: 25rem;
+    background: url('../images/essential-oil.jpeg') no-repeat center / cover;
+    border-radius: 1rem;
 }
 
 #packaging-image {
-
+    width: 30%;
+    height: 25rem;
+    background: url('../images/brown-glass-bottles.jpg') no-repeat center / cover;
+    border-radius: 1rem;
 }
 
 #product-quality-image {
-
+    width: 30%;
+    height: 25rem;
+    background: url('../images/beauty-products-close-up.jpg') no-repeat center / cover;
+    border-radius: 1rem;
 }
 
 
