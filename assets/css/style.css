@@ -60,7 +60,7 @@ nav {
     border-radius: 5px;
 }
     
-/* hero image section */
+/* hero image section all pages*/
 
 #hero-image {
     height: 40rem;
@@ -73,6 +73,13 @@ nav {
     height: 40rem;
     width: 100%;
     background: url('../images/brown-glass-cosmetics.jpg') center / cover no-repeat;
+    overflow: hidden;
+}
+
+#best-practice-hero-image {
+    height: 40rem;
+    width: 100%;
+    background: url('../images/woman-with-gloves.jpg') center / cover no-repeat;
     overflow: hidden;
 }
 
