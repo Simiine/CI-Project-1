@@ -83,6 +83,13 @@ nav {
     overflow: hidden;
 }
 
+#ingredients-index-hero-image {
+    height: 40rem;
+    width: 100%;
+    background: url('../images/ingredients-on-table.jpg') center / cover no-repeat;
+    overflow: hidden;
+}
+
 /* welcome */
 
 .home-page-section {
