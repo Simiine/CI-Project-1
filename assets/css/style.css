@@ -353,6 +353,28 @@ nav {
     border-radius: 1rem;
 }
 
+/* ingredients index page */
+
+#plant-oil-image {
+    width: 30%;
+    height: 25rem;
+    background: url('../images/oil.jpg') no-repeat center / cover;
+    border-radius: 1rem;
+}
+
+#butters-image {
+    width: 30%;
+    height: 25rem;
+    background: url('../images/body-butter.jpg') no-repeat center / cover;
+    border-radius: 1rem;
+}
+
+#waxes-image {
+    width: 30%;
+    height: 25rem;
+    background: url('../images/wax.jpg') no-repeat center / cover;
+    border-radius: 1rem;
+}
 
 /* signup form */
 /* .form-section {
