@@ -8,13 +8,13 @@
 
 body {
     font-family: 'Mulish', sans-serif;
-    color: black;
+    color: #000000;
 }
 
 /* headings */
 h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
-    color: black;
+    color: #000000;
 }
 
 /* logo and navigation bar */
@@ -22,7 +22,7 @@ h1, h2 {
 #header-container {
     height: 5rem;
     width: 100%;
-    background-color: white;
+    background-color: #FFFFFF;
     position: fixed;
 }
 
@@ -55,8 +55,8 @@ nav {
 }
 
 #menu a:hover {
-    background-color: black;
-    color: white;
+    background-color: 000000;
+    color: #FFFFFF;
     border-radius: 5px;
 }
     
@@ -128,14 +128,14 @@ nav {
     justify-content: center;
     padding: 1.9rem;
     border-radius: 1rem;
-    color: white;
+    color: #FFFFFF;
     margin-left: -90px;
 }
 
 .content h2 {
     font-size: 2.5rem;
     font-weight: lighter;
-    color: white;
+    color: #FFFFFF;
 }
 
 .content p {
@@ -154,7 +154,7 @@ nav {
     justify-content: center;
     padding: 1.9rem;
     border-radius: 1rem;
-    color: white;
+    color: #FFFFFF;
 }
 
 #diy-skincare-image {
@@ -202,14 +202,14 @@ nav {
 }
 
 #resources h2 {
-    color: white;
+    color: #FFFFFF;
     font-size: 3rem;
 }
 
 .learn-more {
     text-decoration: none;
-    color: black;
-    background: white;
+    color: #000000;
+    background: #FFFFFF;
     font-size: 1rem;
     padding: 0.5rem;
     display: inline-block;
@@ -220,8 +220,8 @@ nav {
 }
 
 #resources a:hover {
-    background-color: black;
-    color: white;
+    background-color: 000000;
+    color: #FFFFFF;
     border-radius: 5px;
 }
 
@@ -310,13 +310,13 @@ nav {
     padding: 1.9rem;
     padding-left: 5rem;
     border-radius: 1rem;
-    color: black;
+    color: #000000;
 }
 
 .text h2 {
     font-size: 2.5rem;
     font-weight: lighter;
-    color: black;
+    color: #000000;
 }
 
 .text, p, ul {
@@ -398,14 +398,14 @@ nav {
 }
 
 .signup-form h2 {
-    color: white;
+    color: #FFFFFF;
     font-size: 2rem;
     margin-bottom: 6px;
     letter-spacing: 1.8px;
 }
 
 .signup-form p {
-    color: white;
+    color: #FFFFFF;
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
 }
@@ -423,7 +423,7 @@ nav {
     height: 2rem;
     border-radius: 6px;
     background-color: #141611;
-    color: white;
+    color: #FFFFFF;
 }
 
 .join-button:hover {
@@ -444,5 +444,5 @@ nav {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: black;
+    color: #000000;
 }
