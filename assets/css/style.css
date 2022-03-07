@@ -25,6 +25,7 @@ h1, h2 {
     width: 100%;
     background-color: #FFFFFF;
     position: fixed;
+    
 }
 
 #logo {
@@ -109,14 +110,14 @@ nav {
 }
 
 #welcome-image {
-    width: 50%;
+    width: 100%;
     height: 35rem;
     background: url('../images/woman-with-eyes-closed.jpg') no-repeat center / cover;
     border-radius: 1rem;
 }
 
 #welcome-content {
-    width: 50%;
+    width: 100%;
     height: 20rem;
     background-color: #6D5141;
     display: flex;
@@ -142,7 +143,7 @@ nav {
 /* home page diy skincare section */
 
 #diy-skincare-content {
-    width: 50%;
+    width: 100%;
     height: 20rem;
     background-color: #6D5141;
     display: flex;
@@ -151,10 +152,12 @@ nav {
     padding: 1.9rem;
     border-radius: 1rem;
     color: #FFFFFF;
+    z-index: 0;
+    margin-right: -5.6rem;
 }
 
 #diy-skincare-image {
-    width: 50%;
+    width: 100%;
     height: 35rem;
     background: url('../images/brown-glass-products.jpg') no-repeat center / cover;
     border-radius: 1rem;
@@ -421,4 +424,34 @@ nav {
 
 .socials i:hover {
     color: #6D5141;
+}
+
+@media screen and (max-width: 770px) {
+    #header-container {
+        height: 13rem;
+    }
+
+    #logo {
+        float: none;
+        /* font-size: 2rem; */
+        margin-left: 0;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        margin-right: 0;
+    }
+
+    #menu li {
+        display: grid;
+        text-align: center;
+        line-height: 1rem;
+        font-size: 1rem;
+    }
+
+    #menu {
+        margin: 0;
+    }
+
 }
