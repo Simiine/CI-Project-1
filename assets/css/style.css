@@ -418,3 +418,7 @@ nav {
     padding: 5%;
     color: #000000;
 }
+
+.socials i:hover {
+    color: #6D5141;
+}
