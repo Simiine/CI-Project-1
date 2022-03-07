@@ -12,6 +12,7 @@ body {
 }
 
 /* headings */
+
 h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
     color: #000000;
@@ -90,7 +91,7 @@ nav {
     overflow: hidden;
 }
 
-/* welcome */
+/* home page welcome section */
 
 .home-page-section {
     height: 50rem;
@@ -106,11 +107,6 @@ nav {
     align-items: center;
     justify-content: center;
 }
-
-/* img {
-    height: 25rem;
-    border-radius: 8px; 
-} */
 
 #welcome-image {
     width: 50%;
@@ -143,7 +139,7 @@ nav {
     line-height: 1.5rem;
 }
 
-/* diy skincare */
+/* home page diy skincare section */
 
 #diy-skincare-content {
     width: 50%;
@@ -165,11 +161,7 @@ nav {
     
 }
 
-/* resources section */
-
-/* #products {
-    background-image: url('../images/ceramic-bowl.jpg');
-} */
+/* home page resources section */
 
 #resources {
     width: 100%;
@@ -234,7 +226,6 @@ nav {
     margin: 3rem 0 1rem;
 }
 
-
 .product-intro {
     font-size: 1.2rem;
     text-align: center;
@@ -251,7 +242,7 @@ nav {
     padding-left: 21rem;
 }
 
-/* product type page introduction*/ 
+/* product type page content*/ 
 
 .main-content-section {
     /* height: 50rem; */
@@ -269,16 +260,6 @@ nav {
     justify-content: center;
     height: 30rem;
 }
-
-/* .main-content-image {
-    width: 50%;
-    height: 35rem;
-
-    width: 30%;
-    height: 25rem;
-    background: url('../images/woman-with-eyes-closed.jpg') no-repeat center / cover;
-    border-radius: 1rem;
-} */
 
 #oil-image {
     width: 30%;
@@ -303,7 +284,6 @@ nav {
 .main-content-text {
     width: 50%;
     height: 20rem;
-    /* background-color: #6D5141; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -330,29 +310,6 @@ nav {
     padding-left: 1.5rem;
 }
 
-/* best practice page */
-
-#essential-oil-image {
-    width: 30%;
-    height: 25rem;
-    background: url('../images/essential-oil.jpeg') no-repeat center / cover;
-    border-radius: 1rem;
-}
-
-#packaging-image {
-    width: 30%;
-    height: 25rem;
-    background: url('../images/brown-glass-bottles.jpg') no-repeat center / cover;
-    border-radius: 1rem;
-}
-
-#product-quality-image {
-    width: 30%;
-    height: 25rem;
-    background: url('../images/beauty-products-close-up.jpg') no-repeat center / cover;
-    border-radius: 1rem;
-}
-
 /* ingredients index page */
 
 #plant-oil-image {
@@ -376,15 +333,30 @@ nav {
     border-radius: 1rem;
 }
 
+/* best practice page */
+
+#essential-oil-image {
+    width: 30%;
+    height: 25rem;
+    background: url('../images/essential-oil.jpeg') no-repeat center / cover;
+    border-radius: 1rem;
+}
+
+#packaging-image {
+    width: 30%;
+    height: 25rem;
+    background: url('../images/brown-glass-bottles.jpg') no-repeat center / cover;
+    border-radius: 1rem;
+}
+
+#product-quality-image {
+    width: 30%;
+    height: 25rem;
+    background: url('../images/beauty-products-close-up.jpg') no-repeat center / cover;
+    border-radius: 1rem;
+}
+
 /* signup form */
-/* .form-section {
-    background-color: #6D5141;
-    width: 100%;
-    height: 10rem;
-    text-align: center;
-    margin: 2rem 0;
-    padding: 5rem 0 0;
-} */
 
 .form-section {
     background-color: #6D5141;
