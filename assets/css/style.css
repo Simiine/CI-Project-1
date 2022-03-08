@@ -426,14 +426,17 @@ nav {
     color: #6D5141;
 }
 
-@media screen and (max-width: 770px) {
+/* media querys*/
+
+/* small screen sizes min 320px home page */
+
+@media screen and (min-width: 320px) {
     #header-container {
         height: 13rem;
     }
 
     #logo {
         float: none;
-        /* font-size: 2rem; */
         margin-left: 0;
         text-align: center;
     }
@@ -454,4 +457,73 @@ nav {
         margin: 0;
     }
 
+    #hero-image {
+        background-position: top right;
+    }
+
+    .home-page-section {
+        display: block;
+        height: auto;
+    }
+
+    .home-page-container {
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    #welcome-image {
+        height: 30rem;
+        margin: 2rem 0 0;
+    }
+
+    #welcome-content {
+        height: auto;
+        display: block;
+        padding: 1rem;
+        margin-left: 0;
+    }
+
+    .content h2 {
+        font-size: 2.2rem;
+    }
+
+    .content p {
+        margin: 1rem 0 0;
+        font-size: 1.2rem;
+    }
+
+    #diy-skincare-content {
+        height: auto;
+        display: block;
+        padding: 1rem;
+        border-radius: 1rem;
+        z-index: 0;
+        margin-right: 0;
+    }
+
+    #diy-skincare-image {
+        height: 30rem;        
+    }
+
+    #resources {
+        height: 28rem;
+        display: block;
+        margin-top: 3rem;
+    }
+
+    #resources div {
+        width: 100%;
+        margin: auto;
+        padding: 2rem 0;
+        margin-bottom: 1rem;
+    }
+
+    #resources h2 {
+        font-size: 2.5rem;
+    }
+
+    .signup-form {
+        padding: 0.8rem 0 0;
+    }
 }
