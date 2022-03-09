@@ -589,4 +589,31 @@ nav {
         border-radius: 0;
     }
 
+    /* small screen sizes min-width 320px best practice page */
+
+    #essential-oil-image {
+        width: 100%;
+        height: 20rem;
+        border-radius: 0;
+    }
+
+    #packaging-image {
+        width: 100%;
+        height: 20rem;
+        border-radius: 0;
+    }
+
+    #product-quality-image {
+        width: 100%;
+        height: 20rem;
+        border-radius: 0;
+    }
+    .page-intro p {
+        margin-bottom: 1rem;
+    }
+
+    .text h2 {
+        line-height: 2.5rem;
+    }
+
 }
