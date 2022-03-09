@@ -570,6 +570,23 @@ nav {
 
     /* small screen sizes min-width 320px ingredients index page */
 
-    
+    #plant-oil-image {
+        width: 100%;
+        height: 20rem;
+        border-radius: 0;
+        margin-top: 3rem;
+    }
+
+    #butters-image {
+        width: 100%;
+        height: 20rem;
+        border-radius: 0;
+    }
+
+    #waxes-image {
+        width: 100%;
+        height: 20rem;
+        border-radius: 0;
+    }
 
 }
