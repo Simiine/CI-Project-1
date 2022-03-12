@@ -437,6 +437,10 @@ nav {
         height: 14rem;
     }
 
+    #header-container a {
+        text-decoration: none;
+    }
+
     #logo {
         float: none;
         margin-left: 0;
