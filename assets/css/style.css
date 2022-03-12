@@ -620,3 +620,17 @@ nav {
     }
 
 }
+
+/* media query medium screen sizes */
+
+/* nav bar */
+
+@media screen and (max-width: 900px) {
+    #menu li {
+        font-size: 1rem;
+    }
+
+    nav {
+        margin-right: 0.5rem;
+    }
+}
