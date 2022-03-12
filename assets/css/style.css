@@ -425,11 +425,11 @@ nav {
     color: #6D5141;
 }
 
-/* media querys*/
+/* media query small screen sizes*/
 
-/* small screen sizes min-width 320px home page */
+/* home page */
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 768px) {
     #header-container {
         height: 13rem;
     }
@@ -524,7 +524,7 @@ nav {
         padding: 0.8rem 0 0;
     }
 
-    /* small screen sizes min-width 320px product types page */
+    /* product types page */
 
     .page-intro {
         margin: 0;
@@ -568,7 +568,7 @@ nav {
         border-radius: 0;
     }
 
-    /* small screen sizes min-width 320px ingredients index page */
+    /* ingredients index page */
 
     #plant-oil-image {
         width: 100%;
@@ -589,7 +589,7 @@ nav {
         border-radius: 0;
     }
 
-    /* small screen sizes min-width 320px best practice page */
+    /* best practice page */
 
     #essential-oil-image {
         width: 100%;
