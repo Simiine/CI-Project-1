@@ -301,10 +301,12 @@ nav {
     color: #000000;
 }
 
-.text, p, ul {
-    margin: 1rem 0;
-    line-height: 1.5rem;
+.text {
     font-size: 1.2rem;
+}
+
+.text p {
+    margin-bottom: 0.5rem;
 }
 
 .text ul{
