@@ -124,18 +124,23 @@ This site allows people to avoid the common pitfuls that arise when skincare mak
 
 ## Responsive Design
 
+I found it quite difficult to adjust the site for responsive design. I found that it would have been a much smoother experience if I had opted for a mobile first approach, which is something I will make sure to do in the future. For the layout of the page contents I used flex box for the display, which I found very difficult to adjust when it came to the responsive design. For my responsive design I changed my display to block which made it alot easier for me to stack the content on top of each other. I also changed the width of the contents to 100% so they would take up the full width of the screen on mobile display.
+
+![responsive design on mobile](assets/images/mobile-responsive.png)
+
+For the medium to large screen sizes I found some issues with overlapping content so I targeted those specific areas at the specific widths that were giving issues. Between the large screen size and the medium screen size 768px to 900px I targeted those specific widths to adjust the navigation bar which didn't fit into the header. I also adjusted the welcome content, removing the full width so the content stayed within its container.
+
+![responsive design on medium screen](assets/images/medium-responsive.png)
+
+I also found issue with certain sections of the site at certain widths which I had to make specified adjustments for. The resources section text overflowed at a certain width so I decreased the font size and increased the size of the container between 769px to 958px. The main content of the product types page also overflowed into each section so I removed the padding, increased the content width and added a margin within 769px to 875px. Making these changes allowed there be a smoother responsiveness as the site went from large screen, to medium, to small.
+
+## Validator Testing
+
+### HTML
 
 
 
-...........
 
-![responsive design on mobile](assets/images/mobile_responsive_design.png)
-
-...........
-
-![responsive design on desktop](assets/images/desktop_responsive_design.png)
-
-..............
 
 ## File Paths
 
