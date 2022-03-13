@@ -137,6 +137,22 @@ I also found issue with certain sections of the site at certain widths which I h
 ## Validator Testing
 
 ### HTML
+All together two warnings and an error message were highlighted when all the pages were put into the HTML checker. The first warning highlighted that the section element with the hero image lacked a heading. This error was present in all pages. The solution I made for this was to..... The error message The second warning highlighted that there was no space between an aria-label attribute in the footer. This error was also present on all pages. My solution to fix this was to simply add a space within the attribute. The second warning highlighted to consider using the h1 element as a top level heading only. This warning was present in the product types page and the best practice page. My solution here was to change the h1 element to h2. 
+
+![html checker warning picture](assets/images/html-checker.png)
+#### Index page
+when I ran my index page code through the html tracker a warning and an error came up. The warning highlighted that my section element with my hero image lacked a heading and the error highlighted that there was no space between my aria-label attribute. For my solution I added in a space between the attribute
+![responsive design on medium screen](assets/images/index-html-checker.png)
+
+#### Product types page
+The HTML checker highlighted two warnings and one error. It had the same warning and error for the hero image section heading and space between the attribute as the index page. It's second warning highlighted to consider using the h1 element as a top level heading only. I followed the same solution for the attribute spacing and I changed the h1 class for the page title to h2.
+![responsive design on medium screen](assets/images/product-html-checker.png)
+
+#### Ingredients Index page
+The HTML checker highlighted that the page had the same warning and error message as the index page. I used the same solution as I did for the index page.
+
+#### Best Practice page
+
 
 
 
