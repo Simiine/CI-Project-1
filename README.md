@@ -141,79 +141,34 @@ All together two warnings and an error message were highlighted when all the pag
 
 ![html checker warning picture](assets/images/html-checker.png)
 
+### CSS
+No errors were found when passing through the official (Jigsaw) validator.
 
+![css validator picture](assets/images/css-validator.png)
 
+### Lighthouse
 
+#### Desktop
+#### Mobile
 
+# Deployment
+I deployed the site on GitHub pages. The following steps were used to deploy:
+- In the project repository, navigate to the settings tab
+- Select the pages tab from the left hand menu
+- Under the source section, in the drop-down menu select the main branch and click save
+- Once the page has refreshed a ribbon will display indicating the successful deployment of the site and link to the live page.
 
+The live site can be found using the following URL - https://simiine.github.io/CI-Project-1/
 
-## File Paths
+# Credits
 
-..........
-
-## Navigation Bar 
-
-............
-
-## Form Alignment
-
-..........
-
-![mobile form centering](assets/images/form_mobile_centering_ok.png)
-
-- ..........
-
-![Desktop form centerng](assets/images/form_centering_issue.png)
-
-- .........
-
-............
-
-## Footer
-
-........
-
-## validation
-
-- .......
-
-![html validation](assets/images/html_validation.png)
-
-- ........
-
-![css_validation](assets/images/css_validation.png)
-
-- ........
-![desktop_lighthouse](assets/images/mobile_lighthouse.png)
-
-- .......
-![desktop_lighthouse](assets/images/desktop_lighthouse.png)
-
-...........
-
-# Unfixed Bugs
-
-## Navigation and links
-
-.........
-
-# deployment
-
-...........
-
-# credits
-
-## content
-
+## Content
 - Font was sourced from Google Fonts https://fonts.google.com/
-
 - Icons were sourced from Font Awesome https://fontawesome.com/
 
 ## media
-
-- All pictures were taken from the open source site Pexels https://www.pexels.com/
+- Pictures were taken from the open source site Pexels https://www.pexels.com/ and Unsplash https://unsplash.com/
 
 ## code
-
-- semi transparent layer over images - https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image
-- css flexbox - https://www.youtube.com/watch?v=_HTL0XSMcRQ&list=LL&index=3&t=609s
+- semi transparent layer over images used in resources section- https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image
+- css flexbox used in homepage content- https://www.youtube.com/watch?v=_HTL0XSMcRQ&list=LL&index=3&t=609s
