@@ -17,19 +17,19 @@ This site allows people to avoid the common pitfuls that arise when skincare mak
 - This give users quick access to the navigations to allow for a better user experience.
 - The header element contains the logo and the navigation bar.
 
-![responsive design picture](assets/images/header-element.png)
+![header element picture](assets/images/header-element.png)
 
 #### Logo
 - The logo showcases the sites name in large black writing. 
 
-![responsive design picture](assets/images/logo.png)
+![logo picture](assets/images/logo.png)
 
 #### Navigation bar
 - The navigation bar has a hover function that changes the navigation color to black with a white text and rounded border which follows the clean aestethic of the site.
 - It links to the home page, product types page, ingredients index page and best practice page.
 - It apears on all four pages.
 
-![responsive design picture](assets/images/nav-bar.png)
+![navigation bar picture](assets/images/nav-bar.png)
 
 ### Hero Images
 - Each page has its own hero image.
@@ -39,35 +39,35 @@ This site allows people to avoid the common pitfuls that arise when skincare mak
 - The home page hero image shows a woman applying skincare.
 - The image aims to indicate to the user that the site they have entered revolves around skincare.
 
-![responsive design picture](assets/images/hero-image-home-page.png)
+![home page hero image picture](assets/images/hero-image-home-page.png)
 
 #### Product Types page - Hero Image
 - The hero image shows cosmetic products in brown bottles.
 
-![responsive design picture](assets/images/hero-image-product-types.png)
+![product types page hero image picture](assets/images/hero-image-product-types.png)
 
 #### Ingredients Index page - Hero Image
 - The hero image shows a range of ingredients layed out on a table.
 
-![responsive design picture](assets/images/hero-image-ingredients-index.png)
+![ingredients index her image picture](assets/images/hero-image-ingredients-index.png)
 
 #### Best Practice page - Hero Image
 - The hero image shows a person wearing gloves mixing products together.
 
-![responsive design picture](assets/images/hero-image-best-practice.png)
+![best practice hero image picture](assets/images/hero-image-best-practice.png)
 
 ### Newsletter
 - A sign up form that allows people to subscribe to the newsletter and get new skincare making tips to their inbox.
 - It has an accent brown colour that follows the clean neutral aesthetic of the site.
 
-![responsive design picture](assets/images/newsletter.png)
+![newsletter picture](assets/images/newsletter.png)
 
 ### Footer
 - Links to social media.
 - Hover feature with colour that accent colour as seen in the introduction section, diy skincare section and newsletter section.
 - Directs user to the respective site on a new page.
 
-![responsive design picture](assets/images/footer.png)
+![footer picture](assets/images/footer.png)
 
 ## Features page content
 
@@ -79,37 +79,37 @@ This site allows people to avoid the common pitfuls that arise when skincare mak
 - It has an image of a girl with her eyes closed facing the sun.
 - It text is highlighted by the brown accent colour.
 
-![Welcome section](assets/images/welcome-to-skinwareness.png)
+![Welcome section picture](assets/images/welcome-to-skinwareness.png)
 
 #### DIY Skincare
 - The DIY skincare section talks about the rise in diy skincare and the danger it faces which is the main reason for the sites creation.
 - It has an image of skincare products in brown glass containers.
 - Just like the welcome section the text is highlighted by the brown accents colour.
 
-![Welcome section](assets/images/diy-skincare.png)
+![diy skincare section picture](assets/images/diy-skincare.png)
 
 #### Resources
 - The resources section links to the other pages on the website, with a learn more button.
 - Each resource link is backed by images that represent the pages and also feature as hero images on each page. 
 - The links have a hover function that changes the learn more button color to black and white.
 
-![Welcome section](assets/images/resources.png)
+![resources section picture](assets/images/resources.png)
 
 ### Product Types page
 - The products types page starts with an introduction into the different types of cosmetic products.
 - It then goes into each of the 3 cosmetic products oil, water and emulsion.
 - Each product type section is accompanied by a respective image that show cases the different product types.
 
-![Welcome section](assets/images/product-page-1.png)
-![Welcome section](assets/images/product-page-2.png)
+![product types page content picture](assets/images/product-page-1.png)
+![product types page content picture](assets/images/product-page-2.png)
 
 ### Ingredients Index page
 - The ingredients index page splits up the the ingredients by three categories.
 - Each category, plant oil, butters and waxes talks about the different categories and gives examples of the specific ingredients used in skincare.
 - Each category is also accompanied by a respective image highlighting them.
 
-![Welcome section](assets/images/ingredients-page-1.png)
-![Welcome section](assets/images/ingredients-page-2.png) 
+![ingredients page content picture](assets/images/ingredients-page-1.png)
+![ingredients page content picture](assets/images/ingredients-page-2.png) 
 
 ### Best Practice page
 - The best practice page starts with an introduction, before you begin section. 
@@ -117,12 +117,15 @@ This site allows people to avoid the common pitfuls that arise when skincare mak
 - It then goes into different sections that highlight essential oil safety, packaging and storage and finally product quality. 
 - Each section is accompanied by a respective image highlighting each section. 
 
-![Welcome section](assets/images/best-practice-page-1.png)
-![Welcome section](assets/images/best-practice-page-2.png)
+![best practice page content picture](assets/images/best-practice-page-1.png)
+![best practice page content picture](assets/images/best-practice-page-2.png)
 
 # Testing
 
 ## Responsive Design
+
+
+
 
 ...........
 
