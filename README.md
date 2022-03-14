@@ -147,9 +147,28 @@ No errors were found when passing through the official (Jigsaw) validator.
 ![css validator picture](assets/images/css-validator.png)
 
 ### Lighthouse
-
 #### Desktop
+- The lighthouse score for the homepage scored high except for SEO which scored 89. This was due to 3 links not having descriptive text. The links were product-types.html, ingredients-index.html and best-practice.html
+- The product types page and the ingredients index scored the highest in lighthouse. They both got a score of 100 in all areas.
+- The best practice page scored very high with 99 in performance and 100 across all other areas
+- I have included screenshots of the scores for all pages.
+
+![lighthouse desktop home picture](assets/images/lighthouse-desktop-home.png)
+
+![lighthouse desktop product types picture](assets/images/lighthouse-desktop-product.png)
+
+![lighthouse desktop ingredients index picture](assets/images/lighthouse-desktop-ingredients.png)
+
+![lighthouse desktop best practice picture](assets/images/lighthouse-desktop-bestpractice.png)
+
 #### Mobile
+- The lighthouse score for all pages was very high. Product types, ingredients index and best practice all scored 100 in accessibility, best practice and seo, with scores between 94 and 95 in Perfromance.
+- The home page scored 100 in accessibility and best practice and then scored 99 in performance and 91 in SEO. 
+- I have included screenshots of the scores for the home page and product types page.
+
+![lighthouse mobile home picture](assets/images/lighthouse-mobile-home.png)
+
+![lighthouse mobile product types picture](assets/images/lighthouse-mobile-product.png)
 
 # Deployment
 I deployed the site on GitHub pages. The following steps were used to deploy:
