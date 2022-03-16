@@ -65,32 +65,26 @@ nav {
     
 /* hero image section all pages*/
 
-#hero-image {
+.header-image-format {
     height: 40rem;
     width: 100%;
-    background: url('../images/woman-applying-cream.jpg') top / cover no-repeat;
     overflow: hidden;
+}
+
+#hero-image {
+    background: url('../images/woman-applying-cream.jpg') top / cover no-repeat;
 }
 
 #product-hero-image {
-    height: 40rem;
-    width: 100%;
     background: url('../images/brown-glass-cosmetics.jpg') center / cover no-repeat;
-    overflow: hidden;
 }
 
 #best-practice-hero-image {
-    height: 40rem;
-    width: 100%;
     background: url('../images/woman-with-gloves.jpg') center / cover no-repeat;
-    overflow: hidden;
 }
 
 #ingredients-index-hero-image {
-    height: 40rem;
-    width: 100%;
     background: url('../images/ingredients-on-table.jpg') center / cover no-repeat;
-    overflow: hidden;
 }
 
 /* home page welcome section */
@@ -265,25 +259,22 @@ nav {
     height: 30rem;
 }
 
-#oil-image {
+.image-format {
     width: 30%;
     height: 25rem;
-    background: url('../images/oil-texture-shot.jpg') no-repeat center / cover;
     border-radius: 1rem;
+}
+
+#oil-image {
+    background: url('../images/oil-texture-shot.jpg') no-repeat center / cover;
 }
 
 #water-image {
-    width: 30%;
-    height: 25rem;
     background: url('../images/gel-texture-shot.jpg') no-repeat center / cover;
-    border-radius: 1rem;
 }
 
 #emulsion-image {
-    width: 30%;
-    height: 25rem;
     background: url('../images/cream-texture-shot.jpg') no-repeat center / cover;
-    border-radius: 1rem;
 }
 
 .main-content-text {
@@ -320,47 +311,29 @@ nav {
 /* ingredients index page */
 
 #plant-oil-image {
-    width: 30%;
-    height: 25rem;
     background: url('../images/oil.jpg') no-repeat center / cover;
-    border-radius: 1rem;
 }
 
 #butters-image {
-    width: 30%;
-    height: 25rem;
     background: url('../images/body-butter.jpg') no-repeat center / cover;
-    border-radius: 1rem;
 }
 
 #waxes-image {
-    width: 30%;
-    height: 25rem;
     background: url('../images/wax.jpg') no-repeat center / cover;
-    border-radius: 1rem;
 }
 
 /* best practice page */
 
 #essential-oil-image {
-    width: 30%;
-    height: 25rem;
     background: url('../images/essential-oil.jpg') no-repeat center / cover;
-    border-radius: 1rem;
 }
 
 #packaging-image {
-    width: 30%;
-    height: 25rem;
     background: url('../images/brown-glass-bottles.jpg') no-repeat center / cover;
-    border-radius: 1rem;
 }
 
 #product-quality-image {
-    width: 30%;
-    height: 25rem;
     background: url('../images/beauty-products-close-up.jpg') no-repeat center / cover;
-    border-radius: 1rem;
 }
 
 /* signup form */
@@ -559,12 +532,6 @@ nav {
         display: block;
     }
 
-    #oil-image {
-        width: 100%;
-        height: 20rem;
-        border-radius: 0;
-    }
-
     .main-content-text {
         width: 100%;
         height: auto;
@@ -581,58 +548,26 @@ nav {
         text-align: center;
     }
 
-    #water-image {
+    /* images all pages */
+
+    .image-format {
         width: 100%;
         height: 20rem;
         border-radius: 0;
     }
 
-    #emulsion-image {
-        width: 100%;
-        height: 20rem;
-        border-radius: 0;
-    }
+    /* product types page*/
+
+    #oil-image {
+        margin-top: 1rem;    }
 
     /* ingredients index page */
 
     #plant-oil-image {
-        width: 100%;
-        height: 20rem;
-        border-radius: 0;
         margin-top: 3rem;
     }
 
-    #butters-image {
-        width: 100%;
-        height: 20rem;
-        border-radius: 0;
-    }
-
-    #waxes-image {
-        width: 100%;
-        height: 20rem;
-        border-radius: 0;
-    }
-
     /* best practice page */
-
-    #essential-oil-image {
-        width: 100%;
-        height: 20rem;
-        border-radius: 0;
-    }
-
-    #packaging-image {
-        width: 100%;
-        height: 20rem;
-        border-radius: 0;
-    }
-
-    #product-quality-image {
-        width: 100%;
-        height: 20rem;
-        border-radius: 0;
-    }
 
     .page-intro p {
         margin-bottom: 1rem;
