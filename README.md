@@ -206,6 +206,10 @@ I deployed the site on GitHub pages. The following steps were used to deploy:
 
 The live site can be found using the following URL - https://simiine.github.io/CI-Project-1/
 
+# Technology Used
+- HTML
+- CSS
+
 # Credits
 
 ## Content
