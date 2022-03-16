@@ -8,6 +8,30 @@ This site allows people to avoid the common pitfalls that arise when skincare ma
 
 ![responsive design picture](assets/images/responsive-design.png)
 
+# Target Audience 
+- People who are ingredient conscious when it comes to skincare. 
+- People who want transparency in their products. 
+- People who want more control over the product they put on their skin.
+- People who want more cost-effective skincare options.
+
+# Design Choices
+## Colour Pallette
+When I was deciding the colour pallete I knew I wanted to go for a very clean minimal colour palette, as this is the current trend most skincare brands as taking. As I was researching different skincare brands and their the design choices, one common feature stood out. Black and white were the mainly used colours along with a pop of colour that acted as an accent. When it came to adding in that pop of colour I wanted it to be along the neutral, warm earth tone side of the colour scale as I felt this represented the honest, natural feel I wanted my site to take. I used coolors to create a colour palette with different colour shades taken out of my main header image as a reference as I liked the natural aesthetic of the photo. The colour palette I generated is available at https://coolors.co/141611-3a3027-693622-6d5141-9c7f6d-706157-7a6d66-bec5d0-b6b4b5-dedfe3 The accent colour I chose to use out of the options was a beautiful, warm, brown colour #6D5141. 
+
+## Typography
+- Two fonts were used throughout the entire site.
+- Fonts were sourced from Google Fonts.
+- Heading font was Josefin Sans.
+- Body font was Mulish.
+- Both fonts were chosen for their simplicity, ease of reading and the way they complemented each other.
+
+## Wireframe
+I created a few wireframes to organise my thoughts and ideas. I made initially made 2 wireframes. One for the home page and one for the resources pages, as they would all follow the same format. As you will see, as I worked on the site my design choices changed and evolved. I changed the placements on the images and text across the pages. 
+
+![wireframe homepage picture](assets/images/wireframe-homepage.png)
+
+![wireframe resources page picture](assets/images/wireframe-resources.png)
+
 # Features
 
 ## Features common on all pages
@@ -122,6 +146,9 @@ This site allows people to avoid the common pitfalls that arise when skincare ma
 
 # Testing
 
+## Testing Method
+During testing, I tested the site across numerous devices and web browsers to ensure cross-compatibility. The site was tested across different iPhones, an iPad, a Mac laptop, and a hp laptop. The site was also tested across google Chrome, Safari and Edge. For re3sponsiveness I used the developer tool for screen adjustments, so I could see how the site would look on different screen sizes as I made the required adjustments for it to be completely responsive.
+
 ## Responsive Design
 
 I found it quite difficult to adjust the site for responsive design. I found that it would have been a much smoother experience if I had opted for a mobile-first approach, which is something I will make sure to do in the future. For the layout of the page contents, I used flexbox for the display, which I found very difficult to adjust when it came to the responsive design. For my responsive design, I changed my display to block which made it a lot easier for me to stack the content on top of each other. I also changed the width of the contents to 100% so they would take up the full width of the screen on a mobile display.
@@ -137,7 +164,7 @@ I also found an issue with certain sections of the site at certain widths which 
 ## Validator Testing
 
 ### HTML
-All together two warnings and an error message were highlighted when all the pages were put into the HTML checker. The first warning highlighted that the section element with the hero image lacked a heading. This error was present on all pages. The solution I made for this was to..... The error message highlighted that there was no space between an aria-label attribute in the footer. This error was also present on all pages. My solution to fix this was to simply add a space within the attribute. The second warning highlighted to consider using the h1 element as a top-level heading only. This warning was present in the product types page and the best practice page. My solution here was to change the h1 element to h2. 
+All together two warnings and an error message were highlighted when all the pages were put into the HTML checker. The first warning highlighted that the section element with the hero image lacked a heading. This error was present on all pages. The solution I made for this was to remove the section element from all the hero images just leaving the div. The error message highlighted that there was no space between an aria-label attribute in the footer. This error was also present on all pages. My solution to fix this was to simply add a space within the attribute. The second warning highlighted to consider using the h1 element as a top-level heading only. This warning was present on the product types page and the best practice page. My solution here was to change the h1 element to h2. After making these changes I passed all the pages back through the HTML checker and no errors or warnings were returned.
 
 ![html checker warning picture](assets/images/html-checker.png)
 
@@ -148,7 +175,7 @@ No errors were found when passing through the official (Jigsaw) validator.
 
 ### Lighthouse
 #### Desktop
-- The lighthouse score for the homepage scored high except for SEO which scored 89. This was due to 3 links not having descriptive text. The links were product-types.html, ingredients-index.html and best-practice.html
+- The lighthouse score for the homepage scored high except for SEO which scored 89. This was due to 3 links not having descriptive text. The links were product-types.html, ingredients-index.html and best-practice.html in the resources section. To fix this, instead of linking just the learn more section I linked the entire section which raised my SEO to 100.
 - The product types page and the ingredients index scored the highest in lighthouse. They both got a score of 100 in all areas.
 - The best practice page scored very high with 99 in performance and 100 across all other areas
 - I have included screenshots of the scores for all pages.
