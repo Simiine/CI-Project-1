@@ -26,7 +26,6 @@ h1, h2 {
     background-color: #FFFFFF;
     position: fixed;
     z-index: 1;
-    
 }
 
 #logo {
@@ -163,7 +162,6 @@ nav {
     height: 35rem;
     background: url('../images/brown-glass-products.jpg') no-repeat center / cover;
     border-radius: 1rem;
-    
 }
 
 /* home page resources section */
@@ -287,6 +285,7 @@ nav {
     background: url('../images/cream-texture-shot.jpg') no-repeat center / cover;
     border-radius: 1rem;
 }
+
 .main-content-text {
     width: 50%;
     height: 20rem;
@@ -313,7 +312,7 @@ nav {
     margin-bottom: 0.5rem;
 }
 
-.text ul{
+.text ul {
     list-style-position: inside;
     padding-left: 1.5rem;
 }
@@ -573,6 +572,7 @@ nav {
         padding: 1rem 0;
         border-radius: 0;
     }
+
     .text {
         padding: 0 0.5rem;
     }
@@ -633,6 +633,7 @@ nav {
         height: 20rem;
         border-radius: 0;
     }
+
     .page-intro p {
         margin-bottom: 1rem;
     }
@@ -640,7 +641,6 @@ nav {
     .text h2 {
         line-height: 2.5rem;
     }
-
 }
 
 /* media query medium screen sizes */
