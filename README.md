@@ -175,27 +175,24 @@ No errors were found when passing through the official (Jigsaw) validator.
 
 ### Lighthouse
 #### Desktop
-- The lighthouse score for the homepage scored high except for SEO which scored 89. This was due to 3 links not having descriptive text. The links were product-types.html, ingredients-index.html and best-practice.html in the resources section. To fix this, instead of linking just the learn more section I linked the entire section which raised my SEO to 100.
-- The product types page and the ingredients index scored the highest in lighthouse. They both got a score of 100 in all areas.
-- The best practice page scored very high with 99 in performance and 100 across all other areas
-- I have included screenshots of the scores for all pages.
+The lighhouse score was 100 in all areas across all the site pages for desktop.
 
-![lighthouse desktop home picture](assets/images/lighthouse-desktop-home.png)
-
-![lighthouse desktop product types picture](assets/images/lighthouse-desktop-product.png)
-
-![lighthouse desktop ingredients index picture](assets/images/lighthouse-desktop-ingredients.png)
-
-![lighthouse desktop best practice picture](assets/images/lighthouse-desktop-bestpractice.png)
+![lighthouse desktop picture](assets/images/lighthouse-desktop.png)
 
 #### Mobile
-- The lighthouse score for all pages was very high. Product types, ingredients index and best practice all scored 100 in accessibility, best practice and seo, with scores between 94 and 95 in Perfromance.
-- The home page scored 100 in accessibility and best practice and then scored 99 in performance and 91 in SEO. 
-- I have included screenshots of the scores for the home page and product types page.
+All the pages scored 100 in accessibility, best practice and seo, only changing in performance with scores ranging from 97, 95 and 94 for mobile.
 
-![lighthouse mobile home picture](assets/images/lighthouse-mobile-home.png)
+![lighthouse mobile picture](assets/images/lighthouse-mobile.png)
 
-![lighthouse mobile product types picture](assets/images/lighthouse-mobile-product.png)
+# Bugs
+## Colour Contrast
+There was an issue with the colour contrast in the resources section of the page as it had white text on a background image. I tested out the text with multiple colours and white was the best colour to go over the image. To allow the white text to stand out a little more over the background images, I applied a shadow box to the background images to darken them and allow more of a contrast. While this has allowed the text to visually stand out more against the background, the Arc toolkit used for best practice still highlights an issue with contrast.
+
+## SEO Descriptive Text
+There was an issue with my SEO on the home page, under the resources section due to descriptive text. This resulted in the page having an SEO score of 89. The issue that was pulled, was that the cards were not descriptive due to the Learn more link text area being repeated across the 3 resource sections. I would have argued that as the containers had heading elements over the learn more text, which identified the page types, it was already descriptive. What I did though to solve this was to link the entire section, both the heading and the learn more text linked to the respective pages. This solved the issue and brought the SEO score to 100.
+
+## Content Overlapping
+There were issues when overlapping certain content. Mainly the sticky header and the DIY skincare section. On my homepage, I styled the welcome text to overlap the image on its left-hand side. When I tried to do the same styling for the DIY skincare section, instead having the text overlap the image on its right, it wouldn't work. Instead, the image kept overlapping the text. What I did to solve it was to add a Z-index of zero to the text box area, which allowed it to overlap the image. While it fixed this main issue, it created another one with the sticky header. As I set the Z-index of the DIY skincare text to 0, not only did it overlap the image on its right, it also overlapped the sticky header. To solve this I added a Z-index of 1 to the sticky header which solved the issue and allowed it to overlap all the content below it. 
 
 # Deployment
 I deployed the site on GitHub pages. The following steps were used to deploy:
