@@ -16,17 +16,17 @@ This site allows people to avoid the common pitfalls that arise when skincare ma
 
 # Design Choices
 ## Colour Pallette
-When I was deciding the colour pallete I knew I wanted to go for a very clean minimal colour palette, as this is the current trend most skincare brands as taking. As I was researching different skincare brands and their the design choices, one common feature stood out. Black and white were the mainly used colours along with a pop of colour that acted as an accent. When it came to adding in that pop of colour I wanted it to be along the neutral, warm earth tone side of the colour scale as I felt this represented the honest, natural feel I wanted my site to take. I used coolors to create a colour palette with different colour shades taken out of my main header image as a reference as I liked the natural aesthetic of the photo. The colour palette I generated is available at https://coolors.co/141611-3a3027-693622-6d5141-9c7f6d-706157-7a6d66-bec5d0-b6b4b5-dedfe3 The accent colour I chose to use out of the options was a beautiful, warm, brown colour #6D5141. 
+When I was deciding the colour pallete I knew I wanted to go for a very clean minimal colour palette, as this is the current trend most skincare brands as taking. As I was researching different skincare brands and their design choices, one common feature stood out. Black and white were the mainly used colours along with a pop of colour that acted as an accent. When it came to adding in that pop of colour I wanted it to be along the neutral, warm earth tone side of the colour scale as I felt this represented the honest, natural feel I wanted my site to take. I used coolors to create a colour palette with different colour shades taken out of my main header image as a reference as I liked the natural aesthetic of the photo. The colour palette I generated is available at https://coolors.co/141611-3a3027-693622-6d5141-9c7f6d-706157-7a6d66-bec5d0-b6b4b5-dedfe3 The accent colour I chose to use out of the options was a beautiful, warm, brown colour #6D5141. 
 
 ## Typography
 - Two fonts were used throughout the entire site.
-- Fonts were sourced from Google Fonts.
+- The fonts were sourced from Google Fonts.
 - Heading font was Josefin Sans.
 - Body font was Mulish.
 - Both fonts were chosen for their simplicity, ease of reading and the way they complemented each other.
 
 ## Wireframe
-I created a few wireframes to organise my thoughts and ideas. I made initially made 2 wireframes. One for the home page and one for the resources pages, as they would all follow the same format. As you will see, as I worked on the site my design choices changed and evolved. I changed the placements on the images and text across the pages. 
+I created a few wireframes to organise my thoughts and ideas. I initially made two wireframes. One for the home page and one for the resources pages, as they would all follow the same format. As you will see, as I worked on the site my design choices changed and evolved. I changed the placements on the images and text across the pages. 
 
 ![wireframe homepage picture](assets/images/wireframe-homepage.png)
 
@@ -88,7 +88,7 @@ I created a few wireframes to organise my thoughts and ideas. I made initially m
 
 ### Footer
 - Links to social media.
-- Hover feature with colour that accent colour as seen in the introduction section, DIY skincare section and newsletter section.
+- Hover feature that changes the colour of the icons to the acccent colour that is seen in the introduction section, DIY skincare section and newsletter section.
 - Directs the user to the respective site on a new page.
 
 ![footer picture](assets/images/footer.png)
@@ -101,14 +101,14 @@ I created a few wireframes to organise my thoughts and ideas. I made initially m
 - The welcome section introduces the user to the website. 
 - It mentions why the site was created and what users can expect to find on the site.
 - It has an image of a girl with her eyes closed facing the sun.
-- It text is highlighted by the brown accent colour.
+- The text is highlighted by the brown accent colour.
 
 ![Welcome section picture](assets/images/welcome-to-skinwareness.png)
 
 #### DIY Skincare
 - The DIY skincare section talks about the rise in DIY skincare and the danger it faces which is the main reason for the creation of the site.
 - It has an image of skincare products in brown glass containers.
-- Just like the welcome section the text is highlighted by the brown accents colour.
+- Just like the welcome section the text is highlighted by the brown accent colour.
 
 ![diy skincare section picture](assets/images/diy-skincare.png)
 
@@ -136,7 +136,7 @@ I created a few wireframes to organise my thoughts and ideas. I made initially m
 ![ingredients page content picture](assets/images/ingredients-page-2.png) 
 
 ### Best Practice page
-- The best practice page starts with an introduction before you begin the section. 
+- The best practice page starts with an introduction, before you begin the section. 
 - The introduction highlights personal hygiene and types of equipment used. 
 - It then goes into different sections that highlight essential oil safety, packaging and storage and finally product quality. 
 - Each section is accompanied by a respective image highlighting each section. 
@@ -147,7 +147,7 @@ I created a few wireframes to organise my thoughts and ideas. I made initially m
 # Testing
 
 ## Testing Method
-During testing, I tested the site across numerous devices and web browsers to ensure cross-compatibility. The site was tested across different iPhones, an iPad, a Mac laptop, and a hp laptop. The site was also tested across google Chrome, Safari and Edge. For re3sponsiveness I used the developer tool for screen adjustments, so I could see how the site would look on different screen sizes as I made the required adjustments for it to be completely responsive.
+During testing, I tested the site across numerous devices and web browsers to ensure cross-compatibility. The site was tested across different iPhones, an iPad, a Mac laptop, and a hp laptop. The site was also tested across google Chrome, Safari and Edge. For responsiveness I used the developer tool for screen adjustments, so I could see how the site would look on different screen sizes as I made the required adjustments for it to be completely responsive.
 
 ## Responsive Design
 
@@ -196,9 +196,9 @@ There were issues when overlapping certain content. Mainly the sticky header and
 
 # Deployment
 I deployed the site on GitHub pages. The following steps were used to deploy:
-- In the project repository, navigate to the settings tab
-- Select the pages tab from the left hand menu
-- Under the source section, in the drop-down menu select the main branch and click save
+- In the project repository, navigate to the settings tab.
+- Select the pages tab from the left hand menu.
+- Under the source section, in the drop-down menu select the main branch and click save.
 - Once the page has refreshed a ribbon will display indicating the successful deployment of the site and link to the live page.
 
 The live site can be found using the following URL - https://simiine.github.io/CI-Project-1/
@@ -208,6 +208,9 @@ The live site can be found using the following URL - https://simiine.github.io/C
 - CSS
 
 # Credits
+
+## Support
+- Richard Wells Code Institute Mentor.
 
 ## Content
 - Font was sourced from Google Fonts https://fonts.google.com/
